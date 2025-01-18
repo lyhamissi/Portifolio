@@ -360,3 +360,102 @@ footer {
     margin-left: 1300px;
     margin-top: 110px;
 }
+
+@media (max-width: 768px) {
+
+    /* For tablets and small devices */
+    .logo {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    ul {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+
+    ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .intro,
+    .about,
+    .form {
+        width: 90%;
+        margin: 20px auto;
+        float: none;
+    }
+
+    .image,
+    .images {
+        margin: 20px auto;
+        width: 90%;
+        height: auto;
+    }
+
+    .rect,
+    .rectangle {
+        flex-direction: column;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    footer {
+        width: 100%;
+        margin: 0;
+    }
+
+    .icons {
+        margin: 20px auto;
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* For mobile devices */
+    h2 {
+        font-size: 24px;
+    }
+
+    a {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    input,
+    #message,
+    #submit {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .circle,
+    .circle1,
+    .circle2 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+}
